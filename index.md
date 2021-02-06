@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-<iframe src="http://free.timeanddate.com/clock/i7o1f8is/n3869/fn8/fs16/fcddd/tc000/pct/ftb/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0" width="237" height="52" allowTransparency="true"></iframe>
+<iframe src="http://free.timeanddate.com/clock/i7o1f8is/n3869/fn8/fs16/fcddd/tc000/pct/ftb/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0" width="237" height="52" allowTransparency="false"></iframe>
 
 
 
