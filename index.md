@@ -1,5 +1,8 @@
 ## Welcome to GitHub Pages
 
+<iframe src="http://free.timeanddate.com/clock/i7o1f8is/n3869/fn8/fs16/fcddd/tct/pct/ftb/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0" width="237" height="52" allowTransparency="true"></iframe>
+
+
 You can use the [editor on GitHub](https://github.com/csc80190058/WebPage1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
