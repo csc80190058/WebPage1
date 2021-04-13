@@ -1,0 +1,48 @@
+<!DOCTYPE: HTML>
+<head>
+<style>
+
+</style>
+</head>
+<body onload="formattext()">
+<h4 style="display: inline"> Text:</h4> <h3 style="display: inline" id="N"></h3><br>
+<h4 style="display: inline"> Color:</h4> <h3 style="display: inline" id="C"></h3><br><br>
+<h3> Formatted text : </h3>
+<h2 id="M" style="color: green"></h2>
+
+<h3> Explanation</h3>
+<h5> The URL has a Hash part containing 2 parameters passed from the form: </h5>
+<h5> 1- The script will extract this part: </h5>
+<h5 id="h" style="color: green"></h5>
+<h5> 2- Then it will split it on the '&' character and yield 2 strings </h5>
+<h5 id="s1" style="color: green"></h5> and <h5 id="s2" style="color: green"></h5>
+<h5> 3- Then it will split each string on the '=' character </h5>
+<p> <i> since this is a simple demonstration, we won't use the names of the parameters, we are intrested in the second element index(1) of each resulting array </i></p>
+<h5 id="s3" style="color: green"></h5> and <h5 id="s4" style="color: green"></h5>
+<h5> 4- Then it will replace the text in h2 (id="M") and format it according to parsed values </h5>
+
+
+
+</body>
+
+<script language="javascript">
+function formattext(){
+document.getElementById("M").innerText = "aaaaa";
+var thisurl = window.location.toString();
+var n = thisurl.indexOf("?");
+document.getElementById("h").innerText = (thisurl.substr(n+1));
+var Params = (thisurl.substr(n+1)).split('&');
+document.getElementById("M").innerText = "--+-" + Params +"kik";
+var a = (Params[0].split('='))[1];
+document.getElementById("s1").innerText = Params[0];
+document.getElementById("s2").innerText = Params[1];
+var b = (Params[1].split('='))[1];
+document.getElementById("M").style.color = a;
+document.getElementById("M").innerText = b;
+document.getElementById("N").innerText = b;
+document.getElementById("C").innerText = a;
+document.getElementById("s3").innerText = a;
+document.getElementById("s4").innerText = b;
+}
+
+</script>
