@@ -13,42 +13,75 @@ html1 {
 nav {
   max-width: 100%;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0.5) 100%);
-  margin: 0 auto;
-  padding: 10px 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 nav ul {
-  text-align: center;
+
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.6) 25%, rgba(255, 255, 255, 0.6) 75%, rgba(255, 255, 255, 0) 100%);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  padding:0px;
+  margin: 0px;
+  text-align: center;
 }
 
 nav ul li {
   display: inline-block;
   width: 16%;
   xheight: 100%;
+  padding:0px;
+  margin: 0px;
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+}
+
+nav ul li .img1{
+padding:6px;
+margin: 0px;
+heeight: 100%;
+width: 90%;
+baackground: black;
+}
+
+nav ul li a.img1:hover{
+paadding: 24px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 35, 122, 0.7);
+  posaition: relative;
+  maargin: 20px;
+  background: black;
 }
 
 nav ul li a {
-  padding: 18px;
+  padding: 24px;
+  text-align: center;
+  margin: 0px;
   font-family: "Open Sans";
   text-transform:uppercase;
   color: rgba(0, 35, 122, 0.5);
   font-size: 18px;
   text-decoration: none;
   display: block;
+  position: relative;
+  vertical-align: middle;
 }
 
 nav ul li a:hover {
+paadding: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.4);
   color: rgba(0, 35, 122, 0.7);
+  position: relative;
+  maargin: 20px;
 }
 </style>
 </head>
 <nav>
 <ul>
-<li><a href="battikh"><img src="images/home-img.png" alt="TECH4EDU" style="width:100%; padding: 6px 10px%;"></img></a></li>
+<li><a class="img1" href="battikh"><img src="images/home-img-1.png" class="img1" alt="TECH4EDU" style="width:90%;"></a></img></li>
 <li><a href="battikh"> ABOUT </a></li>
 <li><a href="battikh"> SOLUTIONS </a></li>
 <li><a href="battikh"> SERVICES </a></li>
